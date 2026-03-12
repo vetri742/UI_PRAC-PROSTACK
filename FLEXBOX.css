@@ -1,0 +1,51 @@
+.one{
+    background-color: blueviolet;
+    color: white;
+    padding: 20px;
+    margin: 5px;
+    order: 3;
+
+
+}
+.two{
+    background-color:brown;
+    color: white;
+    padding: 20px;
+    margin: 5px;
+    order: 1;
+
+    
+}
+.three{
+    background-color: green;
+    color: white;
+    padding: 20px;
+    margin: 5px;
+    order: 2;
+
+
+}
+
+.flex-container{
+    display: flex;
+    padding: 10px;
+}
+body{
+    background-color:aliceblue
+}
+.box-container{
+    background-color: bisque;
+    min-height: 400px;
+    display: flex;
+    padding:  20px;
+    justify-content: center;
+    align-items: center;
+
+}
+.box{
+    background-color: black;
+    height: 200px;
+    width: 200px;
+    border: 2px solid white;
+
+}
