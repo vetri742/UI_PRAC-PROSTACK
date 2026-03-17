@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="./register">
+        <div>
+        <label>USER NAME</label>
+        <input type="text"
+        name="User name"
+         required 
+        pattern="^(?=.*[A-Z])(?=.*[0-9])(?=.*[#@$!%*?]).{6,}$" title="User name should contain 
+        atleast one uppercase,one digit,one spl char and one num">
+        </div>
+        <div>
+            <label>Password::::::</label>
+            <input type="text" name="password" 
+            required 
+            
+            pattern="^(?=.*[A-Z])(?=.*[0-9])(?=.*[@$!%*?]).{6,}$" title="password should contain
+             atleast one uppercase
+            ,one digit,one spl char and one num">
+        </div>
+        <div>
+            <label>Mobile Number</label>
+            <input type="tel" 
+            name="Mobilenumber"
+            required 
+            pattern="[6-9]\d{9}">
+        </div>
+         <div>
+        <label>EMAIL::::::::</label>
+        <input type="email"
+        name="Email"
+         required 
+        placeholder="Enter Email">
+        </div>
+        <div>
+            <input type="submit">
+        </div>
+    </form>
+    
+</body>
+</html>
